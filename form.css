@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+label {
+    margin-right: .3em;
+    width: 5em;
+    display: inlineblock;
+    text-align: right;
+}
+
+#formcol1 li {
+list-style: none;
+}
+
+.Req {
+    color: red;
+    text-shadow: .25px 0 0 #000, 0 -.25px 0 #000, 0 .25px 0 #000, -.25px 0 0 #000;
+}
+
+#formcol1 input.reqfield {
+    background: #ff9;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label, 
+input:active + label, label[for]:focus, label[for]:active {
+color: rgb(0, 0, 0) !important;
+background-color: #dfff4f !important;
+}
+
+/* end of form css */
+	
